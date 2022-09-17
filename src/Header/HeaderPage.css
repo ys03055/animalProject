@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none; /* 기본 밑줄을 제거 */
+    color: #888;
+}
+
+
+
+fieldset {
+    border: none; /* 기본 border 없애기 */
+}
+.visually-hidden {
+    /* 검색창에서 legend 안보이게 설정. */
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
+.links {
+    /* 링크 클래스 우측 상단에 고정 */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.link_text {
+    font-size: 10px;
+    margin-left: 5px;
+}
+.links_button {
+    /* 링크 버튼(글쓰기, 채팅, 알림 마이페이지 로그인 아래에 고정) */
+    position: absolute;
+    top: 1;
+    right: 0;
+}
+
+.logo {
+    /* 빌리마켓 이미지 */
+    width: 33%;
+    height: 100%;
+    position: center;
+}
+.img_logo{
+    /*margin-top: 10%;*/
+    display: flex;
+    justify-content: center;
+    margin-left: 100%;
+    margin-top: 5%;
+    width: 90%;
+    height: 60%;
+
+}
+
+.nav_items {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 1px solid #f1f3f6;
+}
+
+main {
+    background: #f2f4f7;
+    min-height: 700px;
+}
+
+.menuBar{
+    background-color: #f6e7a6;
+    position: absolute;
+    width: 128.5%;
+    height: 30%;
+    margin-top: 14%;
+    margin-left: -20%;
+}
+.noticeBoard1{
+    background-color: #ff0000;
+}
+.noticeBoard2{
+    background-color: #ffffff;
+}
+.noticeBoard3{
+    background-color: #3a89f8;
+}
+.noticeBoard4{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -3.8%;
+    height: 30%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #282c34;
+}
+.noticeBoard5{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: -3.8%;
+    height: 30%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #282c34;
+}
+.noticeBoard6{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -3.8%;
+    height: 30%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #282c34;
+}
+.noticeBoard7{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -3.8%;
+    height: 30%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #282c34;
+}
+
+.noticeBoard8{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -3.8%;
+    height: 30%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #282c34;
+}

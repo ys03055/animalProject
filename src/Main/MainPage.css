@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    margin: auto;
+    width: 1080px;
+    height: 215px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+h3{
+    margin: 20px;
+}
+
+main {
+    background: #f2f4f7;
+    min-height: 700px;
+}
