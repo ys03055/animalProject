@@ -76,7 +76,7 @@ main {
 }
 .honeyBoards{
     position: absolute;
-    width: 18%;
+    width: 20%;
     height:55%;
     top: 50%;
     left: 78%;
@@ -93,9 +93,9 @@ main {
 
 .freeBoards{
     position: absolute;
-    width: 18%;
+    width: 20%;
     height: 55%;
-    top: 100%;
+    top: 120%;
     left: 78%;
     background-color: #ffeeee;
 }
