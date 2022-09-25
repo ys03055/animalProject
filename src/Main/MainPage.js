@@ -31,7 +31,7 @@ function MainPage()  {
                 <div>
                 <div className="MainPageCardDiv">
                     <Card className="MainPageMiniHeader">
-                        *나의 반려동물을 위한 용품 추천
+                        *내 반려동물과의 하루
                     </Card>
                         <Card hoverable className="MainPageCard" cover = {<img className="Pic" src={dog} />}>
                         </Card>
@@ -79,7 +79,7 @@ function MainPage()  {
                         <Card hoverable className="MainPageCard" cover = {<img className="Pic" src={person1} />}>
                         </Card>
                         <h1 className="recommendFirst"> 닉네임 : 방재성</h1>
-                        <h1 className="recommendFirst1"> 추천수 : 100</h1>
+                        <h1 className="recommendFirst1"> 추천수 : 1000</h1>
                         <Card hoverable className="MainPageCard" cover = {<img className="Pic" src={person2} />}>
                         </Card>
                         <h1 className="recommendSecond"> 닉네임 : 방일호</h1>
