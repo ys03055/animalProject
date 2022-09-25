@@ -38,7 +38,7 @@ fieldset {
 .links_button {
     /* 링크 버튼(글쓰기, 채팅, 알림 마이페이지 로그인 아래에 고정) */
     position: absolute;
-    top: 1;
+    /*top: 1;*/
     right: 0;
 }
 
@@ -80,7 +80,7 @@ main {
     position: absolute;
     width: 128.5%;
     height: 30%;
-    margin-top: 14%;
+    margin-top: 20%;
     margin-left: -20%;
 }
 
