@@ -76,19 +76,32 @@ function MainPage()  {
                         *명예 회원
                     </Card>
                     <div className="MainPageCardDivPersonDiv">
-                        <Card hoverable className="MainPageCard" cover = {<img className="Pic" src={person1} />}>
+                        <div className= "PersonMini">
+                        <Card hoverable className="MainPageCardPerson" cover = {<img className="Pic" src={person1} />}>
                         </Card>
-                        <h1 className="recommendFirst"> 닉네임 : 방재성</h1>
-                        <h1 className="recommendFirst1"> 추천수 : 1000</h1>
-                        <Card hoverable className="MainPageCard" cover = {<img className="Pic" src={person2} />}>
+                            <h1 className="recommendFirst"> 닉네임 : 방재성</h1>
+                            <h1 className="recommendFirst1"> 추천수 : 1000</h1>
+                        </div>
+
+
+                        <div className= "PersonMini">
+                        <Card hoverable className="MainPageCardPerson" cover = {<img className="Pic" src={person2} />}>
                         </Card>
-                        <h1 className="recommendSecond"> 닉네임 : 방일호</h1>
-                        <h1 className="recommendSecond1"> 추천수 : 500</h1>
-                        <Card hoverable className="MainPageCard" cover = {<img className="Pic" src={person3} />}>
+                            <h1 className="recommendSecond"> 닉네임 : 방일호</h1>
+                            <h1 className="recommendSecond1"> 추천수 : 500</h1>
+                        </div>
+
+                        <div className= "PersonMini">
+                        <Card hoverable className="MainPageCardPerson" cover = {<img className="Pic" src={person3} />}>
                         </Card>
+                            <h1 className="recommendThird"> 닉네임 : 방수민</h1>
+                            <h1 className="recommendThird1"> 추천수 : 200</h1>
+                        </div>
+
                     </div>
-                        <h1 className="recommendThird"> 닉네임 : 방수민</h1>
-                        <h1 className="recommendThird1"> 추천수 : 200</h1>
+
+
+
 
                 </div>
 
