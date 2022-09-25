@@ -32,8 +32,26 @@ main {
     justify-content: space-between;
     background-color: #f5eed9;
     width: 70%;
-
-
+}
+.MainPageCardDivPerson {
+    flex-direction: row;
+    flex-wrap : wrap;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 4%;
+    justify-content: space-between;
+    background-color: #f5eed9;
+    width: 90%;
+}
+.MainPageCardDivPersonDiv{
+    flex-direction: row;
+    flex-wrap : wrap;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 4%;
+    justify-content: space-between;
+    background-color: #f5eed9;
+    width: 80%;
 }
 
 .MainPageCard {
@@ -96,5 +114,47 @@ main {
     margin-left: 70%;
     margin-top: 2%;
     font-weight: bolder;
-
 }
+.recommendFirst {
+    position: absolute;
+    font-size: 17px;
+    margin-top: 10%;
+    margin-left: 17%;
+    font-weight: bold;
+}
+.recommendFirst1 {
+    position: absolute;
+    font-size: 17px;
+    margin-top: 13%;
+    margin-left: 17%;
+    font-weight: bold;
+}
+.recommendSecond {
+    position: absolute;
+    font-size: 17px;
+    margin-top: 10%;
+    margin-left: 45%;
+    font-weight: bold;
+}
+.recommendSecond1 {
+    position: absolute;
+    font-size: 17px;
+    margin-top: 13%;
+    margin-left: 45%;
+    font-weight: bold;
+}
+.recommendThird {
+    position: absolute;
+    font-size: 17px;
+    margin-left: 78%;
+    margin-top: 19%;
+    font-weight: bold;
+}
+.recommendThird1 {
+    position: absolute;
+    font-size: 17px;
+    margin-left: 78%;
+    margin-top: 22%;
+    font-weight: bold;
+}
+

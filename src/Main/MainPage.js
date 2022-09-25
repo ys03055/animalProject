@@ -6,6 +6,10 @@ import dog from "../pic/dog.jpg";
 import cat from "../pic/cat.jfif"
 import deer from "../pic/deer.jfif"
 import snake from "../pic/snake.jfif"
+import person1 from "../pic/1.png"
+import person2 from "../pic/2.png"
+import person3 from "../pic/3.png"
+
 import {Link} from "react-router-dom";
 
 function MainPage()  {
@@ -67,18 +71,25 @@ function MainPage()  {
                         </Card>
                 </div>
 
-                <div className="MainPageCardDiv">
+                <div className="MainPageCardDivPerson">
                     <Card className="MainPageMiniHeader" >
                         *명예 회원
                     </Card>
-                        <Card hoverable className="MainPageCard" cover = {<img className="Pic" src={dog} />}>
+                    <div className="MainPageCardDivPersonDiv">
+                        <Card hoverable className="MainPageCard" cover = {<img className="Pic" src={person1} />}>
                         </Card>
-                        <Card hoverable className="MainPageCard" cover = {<img className="Pic" src={cat} />}>
+                        <h1 className="recommendFirst"> 닉네임 : 방재성</h1>
+                        <h1 className="recommendFirst1"> 추천수 : 100</h1>
+                        <Card hoverable className="MainPageCard" cover = {<img className="Pic" src={person2} />}>
                         </Card>
-                        <Card hoverable className="MainPageCard" cover = {<img className="Pic" src={deer} />}>
+                        <h1 className="recommendSecond"> 닉네임 : 방일호</h1>
+                        <h1 className="recommendSecond1"> 추천수 : 500</h1>
+                        <Card hoverable className="MainPageCard" cover = {<img className="Pic" src={person3} />}>
                         </Card>
-                        <Card hoverable className="MainPageCard" cover = {<img className="Pic" src={snake} />}>
-                        </Card>
+                    </div>
+                        <h1 className="recommendThird"> 닉네임 : 방수민</h1>
+                        <h1 className="recommendThird1"> 추천수 : 200</h1>
+
                 </div>
 
                 <Card className="honeyBoards">
