@@ -76,64 +76,65 @@ main {
 }
 
 .menuBar{
-    background-color: #f6e7a6;
+    background-color: #f5eed9;
     position: absolute;
     width: 128.5%;
     height: 30%;
     margin-top: 14%;
     margin-left: -20%;
 }
-.noticeBoard1{
-    background-color: #ff0000;
-}
-.noticeBoard2{
-    background-color: #ffffff;
-}
-.noticeBoard3{
-    background-color: #3a89f8;
-}
-.noticeBoard4{
+
+.animalBoard{
     position: absolute;
     margin-left: 20%;
-    margin-top: -3.8%;
     height: 30%;
+    margin-top: 1%;
     font-size: 25px;
     font-weight: bold;
     color: #282c34;
 }
-.noticeBoard5{
+.freeBoard{
     position: absolute;
-    margin-left: 35%;
-    margin-top: -3.8%;
+    margin-left: 32.5%;
     height: 30%;
+    margin-top: 1%;
     font-size: 25px;
     font-weight: bold;
     color: #282c34;
 }
-.noticeBoard6{
+.dailyBoard{
     position: absolute;
-    margin-left: 50%;
-    margin-top: -3.8%;
+    margin-left: 45%;
     height: 30%;
+    margin-top: 1%;
     font-size: 25px;
     font-weight: bold;
     color: #282c34;
 }
-.noticeBoard7{
+.honeyBoard{
     position: absolute;
-    margin-left: 65%;
-    margin-top: -3.8%;
+    margin-left: 57.5%;
     height: 30%;
+    margin-top: 1%;
     font-size: 25px;
     font-weight: bold;
     color: #282c34;
 }
 
-.noticeBoard8{
+.tradeBoard{
     position: absolute;
-    margin-left: 80%;
-    margin-top: -3.8%;
+    margin-left: 70%;
     height: 30%;
+    margin-top: 1%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #282c34;
+}
+.adoptBoard{
+    position: absolute;
+    margin-left: 82.5%;
+    height: 30%;
+    margin-top: 1%;
     font-size: 25px;
     font-weight: bold;
     color: #282c34;

@@ -17,7 +17,7 @@ function HeaderPage()  {
 
             </div>
             <div className="links">
-                <Link to='/login' className="link_text">로그인</Link>
+                <Link to='/signUp' className="link_text">로그인</Link>
                 &nbsp;
                 <Link to='/signup' className="link_text">회원가입</Link>
                 &nbsp;
@@ -27,32 +27,25 @@ function HeaderPage()  {
             </div>
 
             <div className="menuBar">
-                <div className="noticeBoard1">
-                    <Link to='/login' >게시판1</Link>
+
+                <div className="animalBoard">
+                    <Link to='/login' >동물게시판</Link>
                 </div >
 
-                <div className="noticeBoard2">
-                    <Link to='/login' >게시판2</Link>
+                <div className="freeBoard">
+                    <Link to='/login' >자유게시판</Link>
                 </div>
-                <div className="noticeBoard3">
-                    <Link to='/login' >게시판3</Link>
+                <div className="dailyBoard">
+                    <Link to='/login' >일상게시판</Link>
                 </div>
-
-                <div className="noticeBoard4">
-                    <Link to='/login' >게시판1</Link>
-                </div >
-
-                <div className="noticeBoard5">
-                    <Link to='/login' >게시판2</Link>
+                <div className="honeyBoard">
+                    <Link to='/login' >꿀팁게시판</Link>
                 </div>
-                <div className="noticeBoard6">
-                    <Link to='/login' >게시판3</Link>
+                <div className="tradeBoard">
+                    <Link to='/login' >거래게시판</Link>
                 </div>
-                <div className="noticeBoard7">
-                    <Link to='/login' >게시판4</Link>
-                </div>
-                <div className="noticeBoard8">
-                    <Link to='/login' >게시판5</Link>
+                <div className="adoptBoard">
+                    <Link to='/login' >입양게시판</Link>
                 </div>
 
 
