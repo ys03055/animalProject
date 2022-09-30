@@ -17,7 +17,7 @@ function HeaderPage()  {
 
             </div>
             <div className="links">
-                <Link to='/signUp' className="link_text">로그인</Link>
+                <Link to='/login' className="link_text">로그인</Link>
                 &nbsp;
                 <Link to='/signup' className="link_text">회원가입</Link>
                 &nbsp;
